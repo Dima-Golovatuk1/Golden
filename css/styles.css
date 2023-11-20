@@ -1,0 +1,103 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+    
+    
+    li{
+    list-style-type: none;
+    }
+    
+    
+    a{
+    color:currentColor;
+    text-decoration:none
+    }
+                        /* header */
+.logo {
+color: #FED136;
+text-align: center;
+font-family: "Bilbo Swash Caps", sans-serif;
+font-size: 36px;
+font-weight: 400;
+line-height: 113.889%; 
+letter-spacing: 1.3px;
+}
+
+
+.header__nav__item__link {
+    color: #FED136;
+text-align: center;
+font-family: "Montserrat", sans-serif ;
+font-size: 14px;
+font-weight: 400;
+line-height: 292.857%; 
+text-transform: uppercase;
+}
+                            /* main */
+/* Services */
+.services__title {
+color: #222;
+text-align: center;
+font-family: "Montserrat", sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 187.5%;
+letter-spacing: -1px;
+text-transform: uppercase;
+}
+
+
+.services__item__title {
+color: #222;
+text-align: center;
+font-family: "Montserrat", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 416.667%; 
+letter-spacing: -0.45px;
+}
+
+
+.services__item__text {
+color: #777;
+text-align: center;
+font-family: "RobotoSlab", sans-serif;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: -0.35px;
+}
+
+/* Form */
+
+.form__title {
+color: #FFF;
+font-family: "Montserrat", sans-serif;
+font-size: 40px;
+font-weight: 700;
+letter-spacing: -1px;
+text-transform: uppercase;
+}
+
+
+.form__main__label {
+color: #BBB;
+font-family: "Montserrat", sans-serif;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.35px;
+text-transform: uppercase;
+}
+
+
+.form__button {
+color: #FFF;
+text-align: center;
+font-family: "Montserrat", sans-serif;
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+}
