@@ -1,28 +1,48 @@
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    }
-    
-    
-    li{
-    list-style-type: none;
-    }
-    
-    
-    a{
-    color:currentColor;
-    text-decoration:none
-    }
+body{
+    width: 1400px; 
+}
+
+
+.container{
+    width: 934px;
+    margin: 0 auto;
+    padding: 0 15px;
+    outline: 1px solid red; 
+    margin-bottom: 110px;
+}
+
+
+
+
+
+
                         /* header */
+.header{
+    padding-top: 35px;
+}
+
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 .logo {
 color: #FED136;
-text-align: center;
 font-family: "Bilbo Swash Caps", sans-serif;
 font-size: 36px;
 font-weight: 400;
 line-height: 113.889%; 
 letter-spacing: 1.3px;
+
+}
+
+
+.header__nav__list{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
 }
 
 
@@ -37,6 +57,9 @@ text-transform: uppercase;
 }
                             /* main */
 /* Services */
+
+
+
 .services__title {
 color: #222;
 text-align: center;
@@ -46,6 +69,21 @@ font-weight: 700;
 line-height: 187.5%;
 letter-spacing: -1px;
 text-transform: uppercase;
+}
+
+
+.services__list{
+    display: flex;
+    flex-basis: calc((100% - 3 * 30px) / 3);
+    gap: 26px;
+    justify-content: center;
+}
+
+
+.services__item__img{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 
@@ -70,6 +108,10 @@ letter-spacing: -0.35px;
 }
 
 /* Form */
+.form{
+    background-color:#222;
+}
+
 
 .form__title {
 color: #FFF;
@@ -100,4 +142,7 @@ font-family: "Montserrat", sans-serif;
 font-size: 18px;
 font-weight: 700;
 text-transform: uppercase;
+background-color: #FED136;
+width: 242px;
+height: 68px;
 }

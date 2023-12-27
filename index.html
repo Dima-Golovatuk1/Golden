@@ -6,64 +6,77 @@
     <title>Golden</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@400;700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@400;700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
     <!--header  -->
     <header class="header">
-        <a class="logo" href="" >Golden</a>
-        <nav class="header__nav">
-            <ul class="header__nav__list">
-                <li class="header__nav__item"><a class="header__nav__item__link" href="">Home</a></li>
-                <li class="header__nav__item"><a class="header__nav__item__link" href="">Services</a></li>
-                <li class="header__nav__item"><a class="header__nav__item__link" href="">Portfolio</a></li>
-                <li class="header__nav__item"><a class="header__nav__item__link" href="">About</a></li>
-                <li class="header__nav__item"><a class="header__nav__item__link" href="">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <a class="logo" href="">Golden</a>
+            <nav class="header__nav">
+                <ul class="header__nav__list">
+                    <li class="header__nav__item"><a class="header__nav__item__link" href="">Home</a></li>
+                    <li class="header__nav__item"><a class="header__nav__item__link" href="">Services</a></li>
+                    <li class="header__nav__item"><a class="header__nav__item__link" href="">Portfolio</a></li>
+                    <li class="header__nav__item"><a class="header__nav__item__link" href="">About</a></li>
+                    <li class="header__nav__item"><a class="header__nav__item__link" href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <main>
         <!-- Services -->
         <section class="services">
-            <h2 class="services__title">Services</h2>
-            <ul class="services__list">
-                <li class="services__item">
-                    <img class="services__item__img" src="./img/img1.jpg" alt="">
-                    <h3 class="services__item__title">E-Commerce</h3>
-                    <p class="services__item__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                </li>
-                <li>
-                    <img class="services__item__img" src="./img/img2.jpg" alt="">
-                    <h3 class="services__item__title">Responsive Web</h3>
-                    <p class="services__item__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                </li>
-                <li>
-                    <img class="services__item__img" src="./img/img3.jpg" alt="">
-                    <h3 class="services__item__title">Web Security</h3>
-                    <p class="services__item__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
-                </li>
-            </ul>
+            <div class="container">
+                <h2 class="services__title">Services</h2>
+                <ul class="services__list">
+                    <li class="services__item">
+                        <img class="services__item__img" src="./img/img1.jpg" alt="">
+                        <h3 class="services__item__title">E-Commerce</h3>
+                        <p class="services__item__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+                            entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                    </li>
+                    <li>
+                        <img class="services__item__img" src="./img/img2.jpg" alt="">
+                        <h3 class="services__item__title">Responsive Web</h3>
+                        <p class="services__item__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+                            entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                    </li>
+                    <li>
+                        <img class="services__item__img" src="./img/img3.jpg" alt="">
+                        <h3 class="services__item__title">Web Security</h3>
+                        <p class="services__item__text">Proin iaculis purus consequat sem cure digni ssim. Donec porttitora
+                            entum suscipit aenean rhoncus posuere odio in tincidunt.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
         <!--form -->
         <section class="form">
-            <h2 class="form__title">Contact us</h2>
-            <form class="form__main">
-                <label class="form__main__label" for="name"></label>
-                <input class="form__main__input" type="text" id="name" placeholder="your Name *">
+            <div class="container">
+                <h2 class="form__title">Contact us</h2>
+                <form class="form__main">
+                    <label class="form__main__label" for="name"></label>
+                    <input class="form__main__input" type="text" id="name" placeholder="your Name *">
 
-                <label class="form__main__label" for="email"></label>
-                <input class="form__main__input" type="email" id="email" placeholder="your e-mail *">
+                    <label class="form__main__label" for="email"></label>
+                    <input class="form__main__input" type="email" id="email" placeholder="your e-mail *">
 
-                <label class="form__main__label" for="subject"></label>
-                <input class="form__main__input" type="text" id="subject" placeholder="subject">
+                    <label class="form__main__label" for="subject"></label>
+                    <input class="form__main__input" type="text" id="subject" placeholder="subject">
 
-                <label class="form__main__label" for="comments"></label>
-                <input class="form__main__input" type="text" id="comments" placeholder="comments">
-                
-                <button class="form__button" type="submit">Subscribe</button>
-            </form>
+                    <label class="form__main__label" for="comments"></label>
+                    <input class="form__main__input" type="text" id="comments" placeholder="Your message *">
+
+                    <button class="form__button" type="submit">Send Message</button>
+                </form>
+            </div>
         </section>
     </main>
 </body>
