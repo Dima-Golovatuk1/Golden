@@ -1,14 +1,13 @@
-body{
-    width: 1400px; 
-}
-
 
 .container{
-    width: 934px;
     margin: 0 auto;
     padding: 0 15px;
     outline: 1px solid red; 
-    margin-bottom: 110px;
+}
+
+
+section{
+    padding-bottom: 110px;
 }
 
 
@@ -69,6 +68,7 @@ font-weight: 700;
 line-height: 187.5%;
 letter-spacing: -1px;
 text-transform: uppercase;
+margin-bottom: 79px;
 }
 
 
@@ -120,17 +120,25 @@ font-size: 40px;
 font-weight: 700;
 letter-spacing: -1px;
 text-transform: uppercase;
-display: flex;
-justify-content: center;
-
+text-align: center;
 padding-top: 92px;
 padding-bottom: 114px;
 }
 
 
+.form__main__textarea{
+    width: 458px;
+    padding-top: 14px;
+    padding-left: 22px;
+    resize: none;
+}
 
 
-.form__main__label {
+.form__main__input{
+    width: 455px;
+padding-top: 12px;
+padding-bottom: 21px;
+padding-left: 20px;
 color: #BBB;
 font-family: "Montserrat", sans-serif;
 font-size: 14px;
@@ -140,6 +148,11 @@ line-height: normal;
 letter-spacing: -0.35px;
 text-transform: uppercase;
 
+}
+
+
+.form__main__input:not(:last-child){
+    margin-bottom: 28px;
 }
 
 
@@ -153,6 +166,8 @@ text-transform: uppercase;
 background-color: #FED136;
 width: 242px;
 height: 68px;
+display: block;
+margin: 0 auto;
 
 }
 
@@ -160,12 +175,12 @@ height: 68px;
 .form_div{
     display: flex;
     justify-content: center;
+    margin-bottom: 27px;
 }
 
 
 .form_div2{
     display: flex;
     flex-direction: column;
-    gap: 28px;
     margin-right: 27px;
-}
+} 
